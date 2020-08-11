@@ -98,10 +98,6 @@ img {
 	border-bottom: 3px solid #149d6f;
 }
 
-.header-btn:after {
-	content: 'Заказать звонок';
-}
-
 .btn i {
 	color: #41e0aa;
 }
@@ -141,7 +137,6 @@ img {
 
 .nav__link {
 	font-size: 17px;	
-	padding-right: 13px;
 	font-weight: 700;	
 }
 
@@ -1016,9 +1011,6 @@ img {
 /* Media Queries */
 
 @media (max-width: 1200px) {
-	.nav__link {
-	    font-size: 16px;
-	}
 
 	.services-list {
     	padding-left: 6px;
@@ -1333,7 +1325,7 @@ img {
 
 @media (max-width: 480px) { 
 	
-	.header-btn:after {
+	.header-btn span {
 		display: none;
 	}
 	
@@ -1343,6 +1335,7 @@ img {
 	
 	.contaсt-card-socials , .contaсt-card-content {
 		flex-direction: column;
+		justify-content: normal!important
 	}
 	
 }
